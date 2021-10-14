@@ -4,10 +4,10 @@ describe('palindromes', () => {
   test('works with single words', () => {
     expect(palindromes('racecar')).toBe(true);
   });
-  test.skip('works with punctuation ', () => {
+  test('works with punctuation ', () => {
     expect(palindromes('racecar!')).toBe(true);
   });
-  test.skip('works with upper-case letters ', () => {
+  test('works with upper-case letters ', () => {
     expect(palindromes('Racecar!')).toBe(true);
   });
   test.skip('works with multiple words', () => {
