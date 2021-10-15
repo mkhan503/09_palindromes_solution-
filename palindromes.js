@@ -31,8 +31,7 @@ const palindromes = function(expression){
     //checking if both are equal
     for (i = 0; i <= len; i++ ){
         if (onlyLetters[i] != arr2 [i]){
-        console.log(onlyLetters[i]);
-        console.log(arr2[i])
+        
             return false;
         }
 
@@ -40,6 +39,8 @@ const palindromes = function(expression){
 
     return true;
 }
+
+
 
 
 
